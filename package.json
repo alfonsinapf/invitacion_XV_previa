@@ -1,0 +1,8 @@
+{
+  "name": "invitacion-xv-alfonsina",
+  "version": "1.0.0",
+  "description": "Invitación digital con playlist colaborativa",
+  "engines": {
+    "node": "18.x"
+  }
+}
