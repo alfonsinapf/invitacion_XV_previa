@@ -14,7 +14,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-    <title>Invitación de 15 | Alfonsina Panza Fontana</title>
+    <title>Invitación preliminar 15 | Alfonsina Panza Fontana</title>
     <style>
         /* Estilos mejorados para la sección de música */
         .music-player {
@@ -26,7 +26,7 @@
             border: 1px solid rgba(255, 255, 255, 0.2);
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
         }
-        
+
         .collab-panel {
             margin-top: 25px;
             padding: 20px;
@@ -306,6 +306,180 @@
             border-color: rgba(255, 255, 255, 0.5) !important;
             transform: translateY(-2px);
         }
+
+        /* Línea de división personalizada */
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(135deg, #f9f9f9 0%, #e6f4e6 100%);
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #4CAF50 0%, #2E7D32 100%);
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+        
+        h1 {
+            font-weight: 600;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+        }
+        
+        .subtitle {
+            font-weight: 300;
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+            padding: 25px;
+            border-radius: 12px;
+            background: #f8fdf8;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+        
+        .section:hover {
+            transform: translateY(-5px);
+        }
+        
+        .section-title {
+            color: #2E7D32;
+            font-weight: 600;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        
+        .section-content {
+            font-size: 1.1rem;
+            color: #444;
+            text-align: center;
+            line-height: 1.8;
+        }
+        
+        .divider {
+            position: relative;
+            height: 4px;
+            margin: 50px auto;
+            width: 80%;
+            overflow: visible;
+        }
+        
+        .divider-line {
+            height: 100%;
+            width: 100%;
+            background: linear-gradient(90deg, transparent 0%, #4CAF50 15%, #4CAF50 85%, transparent 100%);
+            border-radius: 2px;
+            position: relative;
+        }
+        
+        .divider-line::before, .divider-line::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 16px;
+            height: 16px;
+            background: #4CAF50;
+            border-radius: 50%;
+        }
+        
+        .divider-line::before {
+            left: 0;
+            transform: translate(-50%, -50%);
+        }
+        
+        .divider-line::after {
+            right: 0;
+            transform: translate(50%, -50%);
+        }
+        
+        .divider-leaf {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 40px;
+            height: 40px;
+            background: #4CAF50;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            box-shadow: 0 0 0 8px white;
+            z-index: 2;
+        }
+        
+        .btn {
+            display: block;
+            width: 250px;
+            margin: 20px auto;
+            padding: 15px;
+            background: linear-gradient(135deg, #4CAF50 0%, #2E7D32 100%);
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            box-shadow: 0 5px 15px rgba(46, 125, 50, 0.3);
+            transition: all 0.3s ease;
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(46, 125, 50, 0.4);
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                border-radius: 10px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .section {
+                padding: 20px;
+            }
+            
+            .section-title {
+                font-size: 1.5rem;
+            }
+            
+            .divider {
+                width: 90%;
+            }
+        }
         
         /* Scrollbar personalizada */
         .track-list::-webkit-scrollbar {
@@ -550,7 +724,11 @@
             </div>
         </div>
     </section>
-
+<div class="divider">
+                <div class="divider-line"></div>
+                <div class="divider-leaf">❀</div>
+            </div>
+            
     <!-- Confirmar Asistencia -->
     <section class="confirmar-asistencia">
         <div class="container">
