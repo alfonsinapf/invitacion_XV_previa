@@ -321,7 +321,7 @@
         .divider-line {
             height: 100%;
             width: 100%;
-            background: linear-gradient(90deg, transparent 0%, #1DB954 15%, #1DB954 85%, transparent 100%);
+            background: linear-gradient(90deg, transparent 0%, #4CAF50 15%, #4CAF50 85%, transparent 100%);
             border-radius: 2px;
             position: relative;
         }
@@ -333,7 +333,7 @@
             transform: translateY(-50%);
             width: 16px;
             height: 16px;
-            background: #1DB954;
+            background: #4CAF50;
             border-radius: 50%;
         }
         
@@ -347,7 +347,66 @@
             transform: translate(50%, -50%);
         }
         
+        .divider-leaf {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 40px;
+            height: 40px;
+            background: #4CAF50;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            box-shadow: 0 0 0 8px white;
+            z-index: 2;
+        }
         
+        .btn {
+            display: block;
+            width: 250px;
+            margin: 20px auto;
+            padding: 15px;
+            background: linear-gradient(135deg, #4CAF50 0%, #2E7D32 100%);
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            box-shadow: 0 5px 15px rgba(46, 125, 50, 0.3);
+            transition: all 0.3s ease;
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(46, 125, 50, 0.4);
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                border-radius: 10px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .section {
+                padding: 20px;
+            }
+            
+            .section-title {
+                font-size: 1.5rem;
+            }
+            
+            .divider {
+                width: 90%;
+            }
+        }
         
         /* Scrollbar personalizada */
         .track-list::-webkit-scrollbar {
@@ -1426,6 +1485,7 @@
     <script src='https://img1.wsimg.com/signals/js/clients/scc-c2/scc-c2.min.js'></script>
 </body>
 </html>
+
 
 
 
